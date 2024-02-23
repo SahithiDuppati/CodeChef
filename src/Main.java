@@ -3,22 +3,22 @@
 // (powered by FernFlower decompiler)
 //
 
-import Beginner_DSA.Strings.DNA_Storage;
 
 import java.util.Scanner;
+
+import static Beginner_DSA.Strings.Wordle.method;
 
 public class Main {
     public Main() {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int t = scanner.nextInt();
-
-        while(t-- > 0) {
-            int n = scanner.nextInt();
-            String s = scanner.next();
-            System.out.println(DNA_Storage.method(n, s));
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-- > 0){
+            String S = sc.next();
+            String T = sc.next();
+            method(S,T);
         }
 
     }
