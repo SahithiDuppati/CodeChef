@@ -1,5 +1,12 @@
 package Beginner_DSA.Strings;
 
+//Scanner sc = new Scanner(System.in);
+//        int t = sc.nextInt();
+//        while(t-- > 0){
+//            String S = sc.next();
+//            String T = sc.next();
+//            method(S,T);
+//        }
 public class Wordle {
     public static void method(String S, String T) {
         StringBuilder M = new StringBuilder();
