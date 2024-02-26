@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-import static Beginner_DSA.Strings.Different_Consecutive_Characters.method;
+import static Beginner_DSA.Strings.Convert_String_To_Title_Case.method;
 
 public class Main {
     public Main() {
@@ -15,11 +15,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
-
+        scanner.nextLine();
         while(t-- > 0){
-            int N = scanner.nextInt();
-            String S = scanner.next();
-            System.out.println(method(N,S));
+            String S = scanner.nextLine();
+            method(S);
         }
     }
 }
