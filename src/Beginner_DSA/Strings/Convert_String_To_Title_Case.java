@@ -1,5 +1,12 @@
 package Beginner_DSA.Strings;
 
+//Scanner scanner = new Scanner(System.in);
+//        int t = scanner.nextInt();
+//        scanner.nextLine();
+//        while(t-- > 0){
+//            String S = scanner.nextLine();
+//            method(S);
+//        }
 public class Convert_String_To_Title_Case {
     public static void method(String S){
         String[] array = S.split(" ");
