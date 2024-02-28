@@ -1,6 +1,16 @@
 package Beginner_DSA.Strings;
 
 public class World_Chess_Championship {
+//Scanner scanner = new Scanner(System.in);
+//        int t = scanner.nextInt();
+//        scanner.nextLine();
+//        while(t-- > 0){
+//            long X = scanner.nextLong();
+//            scanner.nextLine();
+//            String S = scanner.nextLine();
+//            method(X,S);
+//        }
+
     public static void method(long X, String S){
         long prizeMoney = 0;
         int C = 0;

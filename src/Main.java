@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-import static Beginner_DSA.Strings.World_Chess_Championship.method;
+import static Beginner_DSA.Strings.Add_One.method;
 
 public class Main {
     public Main() {
@@ -17,10 +17,8 @@ public class Main {
         int t = scanner.nextInt();
         scanner.nextLine();
         while(t-- > 0){
-            long X = scanner.nextLong();
-            scanner.nextLine();
             String S = scanner.nextLine();
-            method(X,S);
+            method(S);
         }
     }
 }
