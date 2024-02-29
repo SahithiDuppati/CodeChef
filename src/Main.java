@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-import static Beginner_DSA.Strings.Add_One.method;
+import static Beginner_DSA.Strings.Blobby_Volley_Scores.method;
 
 public class Main {
     public Main() {
