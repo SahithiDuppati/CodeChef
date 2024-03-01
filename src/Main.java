@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-import static Beginner_DSA.Strings.Blobby_Volley_Scores.method;
+import static Beginner_DSA.Arrays.Find_Maximum_In_Array.method;
 
 public class Main {
     public Main() {
@@ -17,8 +17,12 @@ public class Main {
         int t = scanner.nextInt();
         scanner.nextLine();
         while(t-- > 0){
-            String S = scanner.nextLine();
-            method(S);
+            int N = scanner.nextInt();
+            int[] array = new int[N];
+            for(int i = 0; i < N; i++){
+                array[i] = scanner.nextInt();
+            }
+            method(N, array);
         }
     }
 }
