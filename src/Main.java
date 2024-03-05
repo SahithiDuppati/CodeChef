@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-import static Beginner_DSA.Arrays.Find_Maximum_In_Array.method;
+import static Beginner_DSA.Arrays.Cost_Of_Groceries.method;
 
 public class Main {
     public Main() {
@@ -15,14 +15,22 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
-        scanner.nextLine();
-        while(t-- > 0){
-            int N = scanner.nextInt();
-            int[] array = new int[N];
-            for(int i = 0; i < N; i++){
-                array[i] = scanner.nextInt();
+
+        while (t-- > 0) {
+            int n = scanner.nextInt();
+            int x = scanner.nextInt();
+            int[] a = new int[n];
+            int[] b = new int[n];
+
+            for (int i = 0; i < n; i++) {
+                a[i] = scanner.nextInt();
             }
-            method(N, array);
+
+            for (int j = 0; j < n; j++) {
+                b[j] = scanner.nextInt();
+            }
+
+            method(a, b, x, n);
         }
     }
 }
