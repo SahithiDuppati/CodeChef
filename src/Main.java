@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-import static Beginner_DSA.Arrays.Cost_Of_Groceries.method;
+import static Beginner_DSA.Arrays.Running_Comparision.method;
 
 public class Main {
     public Main() {
@@ -18,7 +18,6 @@ public class Main {
 
         while (t-- > 0) {
             int n = scanner.nextInt();
-            int x = scanner.nextInt();
             int[] a = new int[n];
             int[] b = new int[n];
 
@@ -26,11 +25,10 @@ public class Main {
                 a[i] = scanner.nextInt();
             }
 
-            for (int j = 0; j < n; j++) {
-                b[j] = scanner.nextInt();
+            for (int i = 0; i < n; i++) {
+                b[i] = scanner.nextInt();
             }
-
-            method(a, b, x, n);
+            method(n,a,b);
         }
     }
 }
