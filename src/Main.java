@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-import static Beginner_DSA.Arrays.Running_Comparision.method;
+import static Beginner_DSA.Arrays.Largest_And_Second_Largest.method;
 
 public class Main {
     public Main() {
@@ -19,16 +19,12 @@ public class Main {
         while (t-- > 0) {
             int n = scanner.nextInt();
             int[] a = new int[n];
-            int[] b = new int[n];
 
             for (int i = 0; i < n; i++) {
                 a[i] = scanner.nextInt();
             }
 
-            for (int i = 0; i < n; i++) {
-                b[i] = scanner.nextInt();
-            }
-            method(n,a,b);
+            method(n,a);
         }
     }
 }
